@@ -4,10 +4,7 @@ import pickle
 import os
 import cv2
 import math
-dj.config['database.host'] = 'tutorial-db.datajoint.io'
-dj.config['database.user'] = 'shulyalk'
-dj.config['database.password'] = 'VY2eilxrw2121'
-dj.conn()
+
 schema = dj.schema('shulyalk_tutorial', locals())  # this might differ depending on how you setup
 
 # Modification of local datafile- store dataset for every neuron
